@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-10-03T01:06:31",
+  "mode": "simulation",
+  "summary": {
+    "total": 3,
+    "up": 2,
+    "down": 1
+  },
+  "results": [
+    {
+      "hostname": "R1-CORE",
+      "ip": "192.168.10.1",
+      "device_type": "Cisco ISR 4331",
+      "location": "Makati HQ",
+      "status": "UP"
+    },
+    {
+      "hostname": "SW1-ACCESS",
+      "ip": "192.168.10.2",
+      "device_type": "Cisco Catalyst 9200",
+      "location": "Makati HQ",
+      "status": "UP"
+    },
+    {
+      "hostname": "R2-BRANCH",
+      "ip": "192.168.20.1",
+      "device_type": "Cisco ISR 1100",
+      "location": "Cebu Branch",
+      "status": "DOWN"
+    }
+  ]
+}
